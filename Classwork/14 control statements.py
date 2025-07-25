@@ -32,7 +32,7 @@ for row in range(5):
     for col in range(row+1):
         print(row,end=' ')
     print()
-''''
+'''
 output    
 0 
 1 1 
@@ -47,7 +47,7 @@ for row in range(5):
     for col in range(3):
         print('*',end=' ')
     print()
-''''
+'''
 output   
 input enter the size:5
 * * * 
@@ -63,7 +63,7 @@ for row in range(n):
     for space in range(n-row-1):
         print('*',end=' ')
     print()
-'''''
+'''
 output
 input enter the size:5
 * * * * 
@@ -71,7 +71,6 @@ input enter the size:5
 * *
 *
 '''
-
 n=int(input("Enter the size:"))
 for row in range(n):
     for col in range(row+1):
