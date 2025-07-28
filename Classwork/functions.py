@@ -68,9 +68,9 @@ def outer_fun():
         batch=30
         print("inside_function:",batch,course)
     inner_fun() 
-    print("inside function:",course,batch)
+    print("inside function:",course)
 outer_fun()
-print("outside function",course)
+
 '''
 output
 inside_function: 30 python
@@ -85,7 +85,7 @@ def outer_fun():
     inner_fun() 
     print(":",course)
 outer_fun()
-print("outside function",course)
+#print("outside function",course)
 '''
 output
 student modification : java
@@ -171,3 +171,29 @@ enter the experssion:549451694+489879
 -767366741
 '''
 
+def update(val):
+    val.append(5)
+    print("inside the function:",val)
+val=[1,2,3,4,5]
+update(val)
+print("outside function:",val)
+'''
+output
+
+inside the function: [1, 2, 3, 4, 5, 5]
+outside function: [1, 2, 3, 4, 5, 5]
+
+'''
+
+def update(val):
+    val=val.copy()
+    val.append(20)
+    print("inside the function:",val)
+val=[1,2,3,4,5]
+update(val)
+print("outside function:",val)
+'''
+output
+inside the function: [1, 2, 3, 4, 5, 20]
+outside function: [1, 2, 3, 4, 5]
+'''
