@@ -182,3 +182,172 @@ while True:
         print("Deleted messages found:", deleted_msgs(msgs))
     else:
         print("Invalid choice, try again.")
+'''
+ output:
+
+Enter number of messages: 7
+Kowshik:Hii manju
+manju:hii raa whats up man ?
+Kowshik: lets get a ride something
+manju: give me 5 min Kowshik i will call you
+Matheen:what's the plan guys
+Kowshik:just getting for a ride we are new from this town raa 
+manju:okay man i pick me at my home now.
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 1
+Total messages: 7
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 2
+Users: {'manju', 'Matheen', 'Kowshik'}
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 3
+Total words: 14
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 4
+Average words/message: 2.0
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 5
+Longest message: Kowshik:just getting for a ride we are new from this town raa
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 6
+Most active user: Kowshik (3 messages)
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 7
+Enter user: Kowshik
+Messages sent by Kowshik: 3
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 7
+Enter user: Matheen
+Messages sent by Matheen: 1
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 7
+Enter user: manju
+Messages sent by manju: 3
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 8
+Enter user: Kowshik
+Most frequent word by Kowshik: "lets"
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 9
+Enter user: Kowshik
+First message: Kowshik:Hii manju
+Last message: Kowshik:just getting for a ride we are new from this town raa
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 10
+Enter user: Kowshik
+User 'Kowshik' is present.
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 11
+Repeated words: set()
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 13
+Longest average message: manju (avg 9.0 words)
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 14
+Enter user: Kowshik
+Messages mentioning 'Kowshik': 4
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 15
+Unique messages count: 7
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 16
+Sorted messages: ['Kowshik: lets get a ride something', 'Kowshik:Hii manju', 'Kowshik:just getting for a ride we are new from this town raa', "Matheen:what's the plan guys", 'manju: give me 5 min Kowshik i will call you', 'manju:hii raa whats up man ?', 'manju:okay man i pick me at my home now.']
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 17
+Questions: ['manju:hii raa whats up man ?']
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 18
+User 1: Kowshik
+User 2: manju
+Reply ratio from manju to Kowshik: 3 replies
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 19
+Deleted messages found: 0
+
+Options:
+1.Total 2.Users 3.Words 4.Avg 5.Longest 6.Active 7.User count 8.Freq word
+9.First/Last 10.Check user 11.Repeated 13.Longest avg 14.Mentions 15.Remove dupes
+16.Sort 17.Questions 18.Reply ratio 19.Deleted 0.Exit
+Choose: 0
+Exiting...
+'''
