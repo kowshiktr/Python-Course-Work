@@ -65,6 +65,258 @@ else:
     else:
         print(f"\n\n{player2} Win the game!!!!!!")
 
+'''
+output:
+Enter the player-1: Kowshik
+Enter the player-2: Manju
+Kowshik: Want to [C]ontinue or [S]top: c
 
+Kowshik's turn:
+Dice: 2
+Board position: 2
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 5
+Board position: 5
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 4
+Board position: 6
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 1
+Board position: 6
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 3
+Board position: 9
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 2
+Board position: 8
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 1
+Board position: 10
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 5
+Board position: 13
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 1
+Board position: 11
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 1
+Board position: 14
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 1
+Board position: 12
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 2
+---Snake bite---
+Board position: 9
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 3
+Board position: 15
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 2
+Board position: 11
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 4
+Board position: 19
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 5
+---Snake bite---
+Board position: 9
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 2
+Board position: 21
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 4
+Board position: 13
+Kowshik: Want to [C]ontinue or [S]top: c 
+
+Kowshik's turn:
+Dice: 6
+Board position: 27
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 2
+Board position: 15
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 2
+Board position: 29
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 3
+*****Ladder*****
+Board position: 77
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 1
+Board position: 30
+Manju: Want to [C]ontinue or [S]top: c 
+
+Manju's turn:
+Dice: 2
+Board position: 79
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 5
+Board position: 35
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 4
+Board position: 83
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 2
+Board position: 37
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 3
+Board position: 86
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 2
+Board position: 39
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 4
+Board position: 90
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 6
+*****Ladder*****
+Board position: 71
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 6
+Board position: 96
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 4
+Board position: 75
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 3
+---Snake bite---
+Board position: 23
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 4
+Board position: 79
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 6
+Board position: 29
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 6
+Board position: 85
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 6
+Board position: 35
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 3
+Board position: 88
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 4
+Board position: 39
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 2
+Board position: 90
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 1
+Board position: 40
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 5
+Board position: 95
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 1
+Board position: 41
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 1
+Board position: 96
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 5
+Board position: 46
+Kowshik: Want to [C]ontinue or [S]top: c
+
+Kowshik's turn:
+Dice: 5
+Board position: 101
+Manju: Want to [C]ontinue or [S]top: c
+
+Manju's turn:
+Dice: 5
+Board position: 51
+
+
+Kowshik Win the game!!!!!!
+'''
     
 
