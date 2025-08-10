@@ -472,3 +472,178 @@ quiz_questions= [
 # Run the game
 if __name__ == "_main_":
     run_quiz(quiz_questions)
+
+'''
+output:
+🧪 Welcome to the Python Quiz Game!
+
+Question 1: Lambda functions are stored in memory as
+a) Function objects
+b) Methods
+c) Classes
+d) Modules
+Your answer (a/b/c/d): git add .
+❌ Wrong! The correct answer is 'a'
+
+Question 2: What is an anonymous function in Python?
+a) A function without a name
+b) A function without parameters
+c) A function inside a class
+d) A built-in function
+Your answer (a/b/c/d): & C:/Users/Kowshik/AppData/Local/Programs/Python/Python313/python.exe d:/PythonCourseWork/Assignment/assignment3.py
+❌ Wrong! The correct answer is 'a'
+
+Question 3: Lambda functions cannot contain
+a) Loops
+b) Return statements
+c) Multiple expressions
+d) All of the above
+Your answer (a/b/c/d): a
+❌ Wrong! The correct answer is 'd'
+
+Question 4: The output of list(map(lambda x: x*2, [1,2,3])) is
+a) [2, 4, 6]
+b) [1, 2, 3]
+c) [1, 4, 9]
+d) [2, 3, 4]
+Your answer (a/b/c/d): b
+❌ Wrong! The correct answer is 'a'
+
+Question 5: How many expressions can a lambda function contain?
+a) Only one
+b) Multiple
+c) Unlimited
+d) None
+Your answer (a/b/c/d): a
+✅ Correct!
+
+Question 6: Can a generator yield values from another generator?
+a) No
+b) Yes, but only with a loop
+c) Yes, using yield from
+d) Yes, but only manually
+Your answer (a/b/c/d): c
+✅ Correct!
+
+Question 7: What does this do? def gen(n): while n > 0: yield n; n -= 1
+a) Counts up from 1 to n
+b) Counts down from n to 1
+c) Loops infinitely
+d) Raises an error
+Your answer (a/b/c/d): c
+✅ Correct!
+
+Question 8: What is a generator in Python?
+a) A function that returns a list
+b) A function that uses yield to produce values one at a time
+c) A class that generates random numbers
+d) A method that loops infinitely
+Your answer (a/b/c/d): b
+✅ Correct!
+
+Question 9: Can yield and return coexist in a generator?
+a) No, it’s invalid
+b) Yes, return stops yielding
+c) Yes, return yields a value
+d) No, yield overrides return
+Your answer (a/b/c/d): a
+❌ Wrong! The correct answer is 'b'
+
+Question 10: What is the output of this code?
+
+def gen():
+    yield 1
+    yield 2
+
+g = gen()
+print(list(g)[0])
+a) 1
+b) 2
+c) None
+d) Error
+Your answer (a/b/c/d): a
+✅ Correct!
+
+Question 11: Which of these is NOT a feature of generators?
+a) Lazy evaluation
+b) Memory efficiency
+c) One-time iteration
+d) Storing all values in memory
+Your answer (a/b/c/d): c
+❌ Wrong! The correct answer is 'd'
+
+Question 12: Can yield send a value back to the generator with next() alone?
+a) Yes
+b) No, needs send()
+c) Yes, with a loop
+d) No, needs return
+Your answer (a/b/c/d): b
+✅ Correct!
+
+Question 13: Can a function mimic a generator’s lazy evaluation?
+a) Yes, with a loop
+b) No, it computes fully
+c) Yes, with yield
+d) No, unless recursive
+Your answer (a/b/c/d): c
+✅ Correct!
+
+Question 14: What is the output of def f(): return 1; print(f())?
+a) 1
+b) None
+c) Error
+d) Generator object
+Your answer (a/b/c/d): a
+✅ Correct!
+
+Question 15: Which of the following will create a list of squared numbers from 1 to 5?
+a) [x**2 for x in range(1, 6)]
+b) [x*2 for x in range(1, 6)]
+c) [x+2 for x in range(1, 6)]
+d) [x//2 for x in range(1, 6)]
+Your answer (a/b/c/d): c
+❌ Wrong! The correct answer is 'a'
+
+Question 16: Which of the following best describes the idea of "list comprehension" in problem-solving?
+a) Breaking down a list into subcategories
+b) Analyzing patterns within a list to generate a new list
+c) Memorizing a list of items without changes
+d) Replacing list elements with random values
+Your answer (a/b/c/d): b
+✅ Correct!
+
+Question 17: Which of the following statements is true about list comprehension?
+a) It is always slower than loops
+b) It creates a new list without modifying the original
+c) It only works for numeric data
+d) It does not support conditions
+Your answer (a/b/c/d): d
+❌ Wrong! The correct answer is 'b'
+
+Question 18: What will be the output of [x + y for x in range(2) for y in range(2)]?
+a) [1, 2, 2, 3]
+b) [0, 1, 2, 3]
+c) [0, 1, 1, 2, 2, 3]
+d) [10, 1, 1, 2]
+Your answer (a/b/c/d): b
+❌ Wrong! The correct answer is 'd'
+
+Question 19: Which list comprehension will correctly extract numbers greater than 5 from a list?
+a) [x for x in numbers if x > 5]
+b) [x < 5 for x in numbers]
+c) [5 > x for x in numbers]
+d) [filter(x > 5) for x in numbers]
+Your answer (a/b/c/d): b
+❌ Wrong! The correct answer is 'a'
+
+Question 20: What will be the result of [x*3 for x in range(3)]?
+a) [3, 6, 9]
+b) [0, 3, 6]
+c) [1, 3, 6]
+d) [3, 6, 12]
+Your answer (a/b/c/d): b
+✅ Correct!
+
+🎯 Your Final Score: 10/20
+👍 Good effort! Keep learning.
+'''

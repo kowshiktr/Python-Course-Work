@@ -83,7 +83,7 @@ class Instagram:
 
     @externalbio.setter
     def externalbio(self, new_bio):
-        self.bio = upd_bio
+        self.bio=upd_bio
 
     def show_Password(self):
         return self._password
